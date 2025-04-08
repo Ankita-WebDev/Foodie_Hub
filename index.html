@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foodie Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">FoodieHub</h1>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#container">About Us</a>
+      <a href="#contact-section">Contact Us</a>
+      <a href="#"><button>login</button></a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2>Welcome to Foodie Hub 🍔</h2>
+    <p>Your favorite meals, just a click away!</p>
+    <button onclick="orderNow()">Order Now</button>
+  </section>
+
+  <!-- Food Cards -->
+  <section class="cards" id="cards">
+    <div class="card">
+      <img id="img1" src="pizza.avif" alt="Pizza">
+      <h3>Cheesy Pizza</h3>
+      <p>Hot, melty and oh-so-good.</p>
+    </div>
+    <div class="card">
+      <img id="img1" src="ice.avif" alt="Ice Cream">
+      <h3>Ice Cream</h3>
+      <p>Chill with our creamy delights.</p>
+    </div>
+    <div class="card">
+      <img id="img1" src="coffe.avif" alt="Coffee">
+      <h3>Fresh Coffee</h3>
+      <p>Brewed to perfection.</p>
+    </div>
+  </section>
+ 
+  <section>
+    <div class="container" id="container">
+      <h1>About Us</h1>
+      <p>Welcome to <strong>Foodie Hub</strong> — your ultimate destination for all things delicious!</p>
+      
+      <p>We’re a team of passionate food lovers who believe that good food brings people together. Whether you're a home cook looking for inspiration, a restaurant explorer, or just someone who loves drooling over tasty bites online, you're in the right place.</p>
+  
+      <h2>What We Do</h2>
+      <p>At <strong>Foodie Hub</strong>, we:</p>
+      <ul>
+        <li>🍜 Share mouth-watering recipes from around the globe</li>
+        <li>🍔 Feature honest reviews of local eats and hidden gems</li>
+        <li>🔪 Serve up food tips, hacks, and kitchen guides</li>
+        <li>❤️ Celebrate food culture, creativity, and community</li>
+      </ul>
+  
+      <h2>Our Mission</h2>
+      <p>We’re here to create a hub where foodies of all kinds can connect, discover, and share their love for food. From street food to fine dining, we believe every bite has a story.</p>
+  
+      <p class="signature">Stay hungry, <br />The Foodie Hub Team</p>
+    </div>
+  
+  </section>
+  <section class="featured-section" id="featured-section" >
+  
+    <h2>🔥 Chef's Specials</h2>
+    <div class="card-container">
+
+      <div class="food-card">
+        <img src="Spicy Sizzler.avif" alt="Spicy Sizzler" />
+        <div class="card-content">
+          <h3>Spicy Sizzler</h3>
+          <p>A sizzling platter of grilled delights served hot and spicy.</p>
+          <div class="price-order">
+            <span class="price">₹349</span>
+            <button>Order Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="food-card" id="food-card">
+        <img src="Tandoori Momos.jpeg" alt="Tandoori Momos" />
+        <div class="card-content">
+          <h3>Tandoori Momos</h3>
+          <p>Smoky momos with a creamy masala coating, straight from the tandoor!</p>
+          <div class="price-order">
+            <span class="price">₹179</span>
+            <button>Order Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="food-card">
+        <img src="Oreo Milkshake.avif" alt="Oreo Milkshake" />
+        <div class="card-content">
+          <h3>Oreo Milkshake</h3>
+          <p>Chilled creamy delight topped with crushed Oreos & choco drizzle.</p>
+          <div class="price-order">
+            <span class="price">₹129</span>
+            <button>Order Now</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="menu" id="menu">
+    <h2>Our Specialties</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="Classic Burger.jpg" alt="Classic Burger">
+        <h3>Classic Burger</h3>
+        <p>Juicy beef patty with cheese, lettuce & our secret sauce.</p>
+        <span>₹199</span>
+      </div>
+      <div class="menu-item">
+        <img src="Veggie Pizza.avif" alt="Veggie Pizza">
+        <h3>Veggie Pizza</h3>
+        <p>Loaded with fresh veggies and mozzarella on thin crust.</p>
+        <span>₹299</span>
+      </div>
+      <div class="menu-item">
+        <img src="Creamy Pasta.avif" alt="Creamy Pasta">
+        <h3>Creamy Pasta</h3>
+        <p>Rich & cheesy white sauce pasta with herbs.</p>
+        <span>₹249</span>
+      </div>
+      <div class="menu-item">
+        <img src="Chocolate Lava Cake.avif" alt="Chocolate Lava Cake">
+        <h3>Chocolate Lava Cake</h3>
+        <p>Warm gooey chocolate dessert served with ice cream.</p>
+        <span>₹149</span>
+      </div>
+      <div class="menu-item">
+        <img src="Creamy Pasta.avif" alt="Creamy Pasta">
+        <h3>Creamy Pasta</h3>
+        <p>Rich & cheesy white sauce pasta with herbs.</p>
+        <span>₹249</span>
+      </div>
+      <div class="menu-item">
+        <img src="Chocolate Lava Cake.avif" alt="Chocolate Lava Cake">
+        <h3>Chocolate Lava Cake</h3>
+        <p>Warm gooey chocolate dessert served with ice cream.</p>
+        <span>₹149</span>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="contact-section" id="contact-section">
+    <div class="contact-container">
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+        <input type="hidden" name="access_key" value="fa41a302-f34c-499d-98f7-b0bbfcb78b37">
+        
+        <h2>Contact Us</h2>
+        <h4>Send Us a Message</h4>
+
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit" id="submit">Send Message</button>
+
+        <!-- Optional success message placeholder -->
+        <p class="form-message success-message" style="display:none;">Your message has been sent!</p>
+      </form>
+    </div>
+  </section>
+  
+  
+
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 FoodieHub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
